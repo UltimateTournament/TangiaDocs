@@ -1,0 +1,8 @@
+{
+  "label": "Integration",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Integrating your game with Tangia"
+  }
+}
