@@ -73,10 +73,16 @@ Content-Type: application/json; charset=UTF-8
 {
   "Events": [
     {
-      "EventID": "A_RANDOM_UNIQUE_ID",
-      "InteractionID": "ID_YOU_DEFINED_IN_THE_DASHBOARD",
-      "Price": 123, // these are USD cents
-      "BuyerName": "Display Name of the buyer"
+      "EventID":        "A_RANDOM_UNIQUE_ID",
+      "InteractionID":  "ID_YOU_DEFINED_IN_THE_DASHBOARD",
+      "Price":          123, // these are USD cents
+      "BuyerName":      "Display Name of the buyer",
+			"CreatedAt":      "2022-07-22T10:29:50.301272+02:00",
+			"Metadata":       "arbitrary string that you defined in the dashboard",
+			"GameID":         "game_abcdef",
+			"Title":          "Best Item Title Ever!",
+			"Description":    "What more can I say...",
+			"Rating":         "pos|neg|neut" // used for creator analytics
     }
   ]
 }
