@@ -70,6 +70,11 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
+           href: 'https://discord.com/channels/996787331426177157/996879210725519402' ,
+           label: 'Need help? Chat with our devs over Discord!',
+           position: 'right'
+          },
+          {
             href: 'https://github.com/UltimateTournament',
             label: 'GitHub',
             position: 'right',
